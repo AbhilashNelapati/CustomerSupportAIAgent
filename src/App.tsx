@@ -28,7 +28,7 @@ function App() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: "Hello! I'm QuickKart Support AI 😊 How can I help you today?",
+      text: "Hello! I'm Customer Support AI 😊 How can I help you today?",
       sender: 'ai',
       timestamp: new Date(),
       type: 'normal'
@@ -124,7 +124,7 @@ function App() {
               <Package className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">QuickKart Support</h1>
+              <h1 className="text-xl font-bold text-gray-900">Customer Support</h1>
               <p className="text-sm text-gray-600">India's fastest same-day delivery • 24/7 Support</p>
             </div>
             <div className="ml-auto flex items-center space-x-2">
@@ -238,7 +238,7 @@ function App() {
               </div>
             </div>
             <p className="text-xs text-gray-500 mt-2 text-center">
-              QuickKart Support AI • Available 24/7 • Response time: &lt;30 seconds
+              Customer Support AI • Available 24/7 • Response time: &lt;30 seconds
             </p>
           </div>
         </div>
